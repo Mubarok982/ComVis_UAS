@@ -1,0 +1,10 @@
+runs/
+dataset/
+*.pt
+*.bin
+*.xml
+*.mp4
+*.zip
+hasil_training_uas*/
+*hasil_training_uas*
+"hasil_training_uas (1)"/
