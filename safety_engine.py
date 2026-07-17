@@ -3,10 +3,10 @@ import numpy as np
 from ultralytics import YOLO
 import yt_dlp
 
-model_ppe = YOLO("hasil_training_uas (1)/content/runs/detect/train/weights/best_openvino_model")
+model_ppe = YOLO("/home/mubarok/Dokumen/Documents/kuliah/semester 6/Computer Vision/UAS/train/weights/best_int8_openvino_model")
 model_pose = YOLO("runs/detect/yolo26n-pose_int8_openvino_model")
 
-youtube_url = "https://www.youtube.com/shorts/LnXTqsPb500" 
+youtube_url = "https://www.youtube.com/shorts/5gmazIjpL3U" 
 
 print("Sedang mendownload video YouTube sementara, harap tunggu...")
 ydl_opts = {
